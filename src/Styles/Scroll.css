@@ -1,0 +1,23 @@
+@import '../Styles/Globalstyle.css';
+
+
+.top-btn-position {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+
+  color: var(--clr-fg-alt);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .top-btn-position {
+    display: none;
+  }
+
+}
