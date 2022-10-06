@@ -15,8 +15,8 @@ const Project = () => {
           <h3>Job Search</h3>
           <div className='Project__information'>
             <p className="project__description">
-              Aplicación que permite al usuario empleador crear ofertas de trabajo y
-              al usuario solicitante postularse a las ofertas existentes.
+              El usuario empleador puede crear ofertas de trabajo y
+              el usuario solicitante puede postularse a las ofertas existentes.
             </p>
             <div className='project__components'>
               <ul className="project__stack">
@@ -25,7 +25,7 @@ const Project = () => {
                 <li className="project__stack-item">React</li>
               </ul>
               <section className='button__information'>
-                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                <a href="https://github.com/KevinValladares/JobSearch" aria-label="source code" className="link link--icon">
                   <i aria-hidden="true" className="fab fa-github"></i>
                 </a>
                 <a href="https://example.com" aria-label="live preview" className="link link--icon">
@@ -40,8 +40,8 @@ const Project = () => {
           <h3>Eccomerce</h3>
           <div className='Project__information'>
             <p className="project__description">
-              Aplicación donde el usuario vendedor agregar los productos que va a ofrecer,
-              mientras que al usuario comprador le permite buscar productos y agregarlos al carrito de compra
+              El usuario vendedor agregar los productos que va a ofrecer,
+              mientras que el usuario comprador le permite buscar productos y agregarlos al carrito de compra
               y realizar la compra
             </p>
             <div className='project__components'>
@@ -51,7 +51,7 @@ const Project = () => {
                 <li className="project__stack-item">React</li>
               </ul>
               <section className='button__information'>
-                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                <a href="https://github.com/KevinValladares/Ecommerce" aria-label="source code" className="link link--icon">
                   <i aria-hidden="true" className="fab fa-github"></i>
                 </a>
                 <a href="https://example.com" aria-label="live preview" className="link link--icon">
@@ -76,7 +76,7 @@ const Project = () => {
                 <li className="project__stack-item">React</li>
               </ul>
               <section className='button__information'>
-                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                <a href="https://github.com/KevinValladares/PokedexK" aria-label="source code" className="link link--icon">
                   <i aria-hidden="true" className="fab fa-github"></i>
                 </a>
                 <a href="https://example.com" aria-label="live preview" className="link link--icon">
