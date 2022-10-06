@@ -229,6 +229,15 @@ main {
 
 .project__description {
   margin-top: 1em;
+  text-align: justify;
+}
+
+.Project__information{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0.3em 0;
 }
 
 .project__stack {
@@ -243,6 +252,13 @@ main {
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
+}
+
+.button__information{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0.3em 0;
 }
 
 .project .link--icon {

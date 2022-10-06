@@ -4,75 +4,91 @@ import '../Styles/Navbarstyle.css'
 
 const Project = () => {
   return (
-    
+
     <section id="projects" className="section projects">
-    <h2 className="section__title">Projects</h2>
+      <h2 className="section__title">Projects</h2>
 
-    <div className="projects__grid">
-      <div className="project">
-        <h3>Project 1</h3>
-        <p className="project__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aperiam possimus magni. 
-       Esse est rerum tempore adipisci voluptate deleniti eligendi mollitia. Minima, temporibus? 
-       Commodi error repellat unde inventore. Nisi, voluptate.
-        </p>
-        <ul className="project__stack">
-          <li className="project__stack-item">SASS</li>
-          <li className="project__stack-item">TypeScript</li>
-          <li className="project__stack-item">React</li>
-        </ul>
+      <div className="projects__grid">
 
-        <a href="https://github.com" aria-label="source code" className="link link--icon">
-          <i aria-hidden="true" className="fab fa-github"></i>
-        </a>
-        <a href="https://example.com" aria-label="live preview" className="link link--icon">
-          <i aria-hidden="true" className="fas fa-external-link-alt"></i>
-        </a>
+
+        <div className="project">
+          <h3>Job Search</h3>
+          <div className='Project__information'>
+            <p className="project__description">
+              Aplicación que permite al usuario empleador crear ofertas de trabajo y
+              al usuario solicitante postularse a las ofertas existentes.
+            </p>
+            <div className='project__components'>
+              <ul className="project__stack">
+                <li className="project__stack-item">Styled components</li>
+                <li className="project__stack-item">Javascripts</li>
+                <li className="project__stack-item">React</li>
+              </ul>
+              <section className='button__information'>
+                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                  <i aria-hidden="true" className="fab fa-github"></i>
+                </a>
+                <a href="https://example.com" aria-label="live preview" className="link link--icon">
+                  <i aria-hidden="true" className="fas fa-external-link-alt"></i>
+                </a>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <h3>Eccomerce</h3>
+          <div className='Project__information'>
+            <p className="project__description">
+              Aplicación donde el usuario vendedor agregar los productos que va a ofrecer,
+              mientras que al usuario comprador le permite buscar productos y agregarlos al carrito de compra
+              y realizar la compra
+            </p>
+            <div className='project__components'>
+              <ul className="project__stack">
+                <li className="project__stack-item">UseContext</li>
+                <li className="project__stack-item">Javascripts</li>
+                <li className="project__stack-item">React</li>
+              </ul>
+              <section className='button__information'>
+                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                  <i aria-hidden="true" className="fab fa-github"></i>
+                </a>
+                <a href="https://example.com" aria-label="live preview" className="link link--icon">
+                  <i aria-hidden="true" className="fas fa-external-link-alt"></i>
+                </a>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <h3>Pokedex</h3>
+          <div className='Project__information'>
+            <p className="project__description">
+              Aplicación que permite buscar pokemons por nombre, 
+              tambien tiene una seccion para la lista de pokemons.
+            </p>
+            <div className='project__components'>
+              <ul className="project__stack">
+                <li className="project__stack-item">Styled components</li>
+                <li className="project__stack-item">Javascripts</li>
+                <li className="project__stack-item">React</li>
+              </ul>
+              <section className='button__information'>
+                <a href="https://github.com" aria-label="source code" className="link link--icon">
+                  <i aria-hidden="true" className="fab fa-github"></i>
+                </a>
+                <a href="https://example.com" aria-label="live preview" className="link link--icon">
+                  <i aria-hidden="true" className="fas fa-external-link-alt"></i>
+                </a>
+              </section>
+            </div>
+          </div>
+        </div>
+        
       </div>
-
-      <div className="project">
-        <h3>Project 2</h3>
-        <p className="project__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aperiam possimus magni. 
-       Esse est rerum tempore adipisci voluptate deleniti eligendi mollitia. Minima, temporibus? 
-       Commodi error repellat unde inventore. Nisi, voluptate.
-        </p>
-        <ul className="project__stack">
-          <li className="project__stack-item">SASS</li>
-          <li className="project__stack-item">TypeScript</li>
-          <li className="project__stack-item">React</li>
-        </ul>
-
-        <a href="https://github.com" aria-label="source code" className="link link--icon">
-          <i aria-hidden="true" className="fab fa-github"></i>
-        </a>
-        <a href="https://example.com" aria-label="live preview" className="link link--icon">
-          <i aria-hidden="true" className="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-
-      <div className="project">
-        <h3>Project 3</h3>
-        <p className="project__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aperiam possimus magni. 
-       Esse est rerum tempore adipisci voluptate deleniti eligendi mollitia. Minima, temporibus? 
-       Commodi error repellat unde inventore. Nisi, voluptate.
-        </p>
-        <ul className="project__stack">
-          <li className="project__stack-item">SASS</li>
-          <li className="project__stack-item">TypeScript</li>
-          <li className="project__stack-item">React</li>
-        </ul>
-
-        <a href="https://github.com" aria-label="source code" className="link link--icon">
-          <i aria-hidden="true" className="fab fa-github"></i>
-        </a>
-        <a href="https://example.com" aria-label="live preview" className="link link--icon">
-          <i aria-hidden="true" className="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </section>
+    </section>
   )
 }
 
